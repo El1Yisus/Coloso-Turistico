@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RINCON ARTESANO</title>
+      <link rel="icon" href="assets/LogoRA.PNG" type="image/x-icon">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Cargar fuentes desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<header>
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <!-- Dropdown "Artesanos" -->
+    <div class="nav-item dropdown">
+      <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Rincon Artesano
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="Index.html">Colosó</a></li>
+        <li><a class="dropdown-item" href="LugaresTuristicos.html">Lugares turisticos</a></li>
+        <li><a class="dropdown-item" href="IndexA.html">Artesania local</a></li>
+    
+        <li><a class="dropdown-item" href="#">Cultivos</a></li>
+      </ul>
+    </div>
+           <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+             
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="IndexA.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Productos.html">Producto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Formulario</a>
+                        </li>
+                    </ul>
+                 
+                    <div class="d-flex align-items-center">
+                        <img src="assets/LogoRA3.PNG" class="img-fluid rounded" alt="Cesta con complementos en madera" style="height: 50px;">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<body>
+
+ 
+<main class="main-section">
+            
+    <!-- Carrusel -->
+    <div id="carouselExampleControls" class="carousel slide carousel-section" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="assets/bandeja.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/IndividualBA.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/IndividualC.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/paneraa.jpg" class="d-block w-100" alt="Imagen 4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<div id="carouselExampleControls" class="carousel slide mb-4">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/bandeja.jpg" class="d-block w-100" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/IndividualBA.jpg" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/IndividualC.jpg" class="d-block w-100" alt="Imagen 3">
+        </div>
+         <div class="carousel-item">
+            <img src="assets/paneraa.jpg" class="d-block w-100" alt="Imagen 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="content">
+
+<div class="container">
+
+
+    <h1 class="text-center text-secondary mb-3 mt-3">Bienvenidos a RINCON ARTESANO</h1>
+ 
+
+    <p>Bienvenidos a Rincón Artesano: un espacio donde encontrarás productos únicos hechos a mano con palma de iraca por artesanos de Colosó, Sucre. Cada artículo refleja la esencia de nuestras raíces, combinando calidad, belleza y la riqueza de la cultura colosona.
+
+    Nuestros productos están inspirados en la naturaleza y diseñados para embellecer tanto el hogar como el uso personal. Son piezas auténticas que no solo decoran, sino que también cuentan una historia: la tradición y la artesanía de nuestro pueblo. Descubre cómo la palma de iraca se transforma en lujo y cultura, llevándote un pedazo de la belleza y el arte de Colosó.
+
+
+    <!-- Card 1: Cestas -->
+    <section class="container mt-2">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="producto-card card especial">
+                <div class="card-body text-center">
+                    <a href="https://youtu.be/e4CZagOoWt0">
+                        <img src="assets/sucre-artesanias-colombia.jpg" class="img-fluid rounded" alt="Cestas">
+                    </a>
+                    <h4 class="card-title mt-3">Cestas</h4>
+                    <p class="card-text">Productos hechos a mano con palma de iraca, perfectos para decorar tu hogar.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCestas">
+                        Ver más detalles
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Cestas -->
+        <div class="modal fade" id="modalCestas" tabindex="-1" aria-labelledby="modalCestasLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalCestasLabel">Detalles de las Cestas Artesanales</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/sucre-artesanias-colombia.jpg" class="img-fluid rounded mb-3" alt="Cestas Artesanales">
+                        <p>Estas cestas están elaboradas a mano por artesanos locales utilizando palma de iraca, una fibra natural resistente y sostenible.</p>
+                        <p>Dimensiones aproximadas: 30 cm de diámetro, 20 cm de altura.</p>
+                        <p><strong>Precio:</strong> $50.000</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a href="#" class="btn btn-primary">Comprar ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Palma de Iraca -->
+        <div class="col-md-4">
+            <div class="producto-card card especial">
+                <div class="card-body text-center">
+                    <img src="assets/palmaIraca.jpeg" class="img-fluid rounded" alt="Palma de Iraca">
+                    <h4 class="card-title mt-3">Palma de Iraca</h4>
+                    <p class="card-text">Conoce más sobre la materia prima utilizada en nuestras artesanías.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIraca">
+                        Ver más detalles
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Palma de Iraca -->
+        <div class="modal fade" id="modalIraca" tabindex="-1" aria-labelledby="modalIracaLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalIracaLabel">Detalles sobre la Palma de Iraca</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/palmaIraca.jpeg" class="img-fluid rounded mb-3" alt="Palma de Iraca">
+                        <p><strong>La palma de iraca</strong> es una fibra natural resistente y sostenible, utilizada en la creación de productos artesanales en Colombia.</p>
+                        <p><strong>Proceso de elaboración:</strong> La palma de iraca se cultiva en regiones como Sucre y Nariño. Las hojas se cortan, se abren las ebras, se hierven y luego se secan al sol antes de ser tejidas por artesanos.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Productos Estrellas -->
+        <div class="col-md-4">
+    <div class="producto-card card especial">
+        <div class="card-body text-center">
+            <img src="assets/Pajaros.png" class="img-fluid rounded" alt="Cesta con pajaritos">
+            <h4 class="card-title mt-3">Productos Exclusivos</h4>
+            <p class="card-text">Conoce más sobre nuestros productos exclusivos, perfectos para una decoración minimalista.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExclusivos">
+                Ver más detalles
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Productos Exclusivos -->
+<div class="modal fade" id="modalExclusivos" tabindex="-1" aria-labelledby="modalExclusivosLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalExclusivosLabel">Detalles de Productos Exclusivos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="assets/Pajaros.png" class="img-fluid rounded mb-3" alt="Cesta con complementos en madera">
+                <p><strong>Productos Exclusivos</strong> que destacan por sus detalles únicos, como la tapa y el pajarito de madera.</p>
+                <p>Estas piezas están elaboradas a mano con palma de iraca, y complementadas con elementos de madera que aportan un toque minimalista y natural.</p>
+                <p>El diseño de estos productos hace que sean ideales para decorar espacios modernos y acogedores.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+<br>
+<br>
+<br>
+  <div class="fondosede">
+    <div class="fot_sede">
+<div class="row">
+        <div class="col-md-8">
+ <h2>Sede electrónica<br />RINCÓN ARTESANO</h2>
+        <p><span class="label">Dirección:</span> <a href="https://maps.app.goo.gl/LU3LeTFe5tyjbHzh8" target="_blank" class="link">Colosó - Sucre, Colombia</a></p>
+        <p><span class="label">Horario de atención:</span> Lunes a viernes: 8:00 a.m. a 5:00 p.m.</p>
+        <p><span class="label">Teléfono:</span> +57 305 337 0415</p>
+        <p><span class="label">Correo electrónico institucional:</span> <a href="mailto:jesus.peluffocecar.edu.co" target="_blank">jesus.peluffocecar.edu.co</a></p>
+        
+        <h3>Dejanos tu información <a href="contacto.html" class="link">Contacto</a></h3>
+        
+        </div>
+        <div class="col-md-4"> 
+        <img src="assets/LogoRA3.PNG" class="img-fluid rounded mb-3" alt="Cesta con complementos en madera">
+   
+        </div>
+   </div>
+</div>
+             
+       
+<br>  
+</section>
+ 
+    </div>
+    </div>
+
+<div class="my-spacing">
+  <footer class="footer text-center text-lg-start">
+    <div class="text-center p-2" style="background-color: rgb(0, 0, 0);">
+      <h6>&copy; 2024 Rincón Artesano. Todos los derechos reservados.</h6>
+    </div>
+  </footer>
+</div> 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqk2sU4m3HXWvcXkT+qJflsaPbxd8qS0Z+gf63E6hmlW9I6Hs09B2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,331 @@
+html,body {
+    background-image: url('assets/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.banner {
+    background-image: url('assets/sucre-artesanias-colombia.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    color:#fff;
+
+}
+.container {
+    .container {
+        padding: 600px 60px 60px 60px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Asegura que los elementos se distribuyan correctamente */
+    }
+   
+}
+
+h1 {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+h2, h3,p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    color: #000;
+}
+
+/* Links */
+.link {
+    color: #800000;
+    text-decoration: none;
+}
+
+label {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Table Styles */
+.table {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-bottom-width: 6px solid #800000;
+}
+
+th, td {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #800000;
+
+    text-align: left;
+}
+
+th {
+    background-color: #A0522D;
+}
+
+tr:hover {
+    background-color: #FAF0E6;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+/* Cards */
+.producto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.producto-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto-card .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.producto-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.producto-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.producto-card .btn {
+    margin-top: 10px;
+}
+
+/* Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 1;
+    max-width: 33.3333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .col-md-4 {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        max-width: 100%;
+    }
+}
+.especial {
+    transition: transform 0.3s ease;
+}
+
+.especial:hover {
+    transform: scale(1.05);
+}
+
+/* Card formulario */
+.center {
+   display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente si es necesario */
+    flex-direction: column;  /* Las cards en una columna */
+    width: 100%;           /* Hace que el contenedor ocupe todo el ancho */
+}
+
+.cardf {
+     width: 50%;              /* Ajusta el ancho de las cards */
+    margin-bottom: 10px;    /* Añade espacio entre las cards */
+}
+
+/*footer*/
+
+.content {
+    flex: 1;
+}
+
+/* Estilos del footer */
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+}
+.footer h6{
+    color: white;
+
+}
+
+
+.fondosede {
+    background-color: #800000; /* Fondo rojo oscuro */
+    padding: 40px 0; /* Espaciado arriba y abajo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.fot_sede {
+    background-color: #FAFAFA; /* Fondo blanco o claro */
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    max-width: 900px; /* Anchura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+    text-align: left; /* Alineación de texto a la izquierda */
+}
+
+.fot_sede h2, .fot_sede p {
+    margin: 10px 0; /* Márgenes verticales */
+}
+
+.fot_sede h3 a {
+    color: #800000; /* Enlace en rojo oscuro */
+}
+
+
+
+
+/* Header section styling */
+.header {
+
+    color: black;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name {
+    font-size: 14px;
+}
+
+.date {
+    font-size: 14px;
+}
+
+/* Main section styling */
+.main-section {
+    color: black;
+    text-align: center;
+
+}
+
+.main-section h1 {
+    font-size: 100px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-section p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Image section styling */
+.image-section {
+    display: flex;
+    max-width: 100%;
+  height: auto;
+   
+}
+
+.image-section img {
+    width: 60%;
+    height: auto;
+}
+
+.description {
+    padding: 20px;
+    background-color: #556B2F;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description p {
+    font-size: 20px;
+    color: white;
+}
+.imagen{
+    border-radius: 15%;
+    height: 50%;
+}
+
+/* banner lugares turisticos */
+
+.banner2 {
+    background-image: url("assets/SaltoSereno.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color:#fff;
+}

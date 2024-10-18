@@ -1,0 +1,57 @@
+body{
+background-image: url(assets/fondo2.jpg);
+}
+h3{
+    color: #800000;
+}
+
+.resaltado th{ 
+color:#000000;
+background-color:#ffff00;
+font-style:italic; 
+} 
+#cabecera {
+font-family:Times New Roman;
+font-size:30px; text-align:center; 
+color:#0000ff; 
+background-color:#998585; 
+} 
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+.image{
+    border-radius: 40%;
+    height: 250px;
+}
+
+
+
+
+
+/* Estilos del footer */
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+}
+.footer h6{
+    color: white;
+
+}
+.nav-item.dropdown {
+    margin: 0 10px; /* Espacio horizontal entre elementos del dropdown */
+}
+
+/*Tabla*/
